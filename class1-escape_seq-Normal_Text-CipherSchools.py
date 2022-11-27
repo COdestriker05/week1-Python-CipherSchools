@@ -17,3 +17,8 @@ print(" \\\" \\\' ")
 # \\ = \ (a)
 # \" = " (b)
 # \\\" = \" (a+b)
+
+# Shortcut to use escape sequence as normal text-
+
+# output : Line 1 \n Line 2
+print(r"Line 1 \n Line 2")
