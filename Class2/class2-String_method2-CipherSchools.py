@@ -31,3 +31,14 @@ string = "string"
 new_string = string.replace("t","T")
 print(string)
 print(new_string)
+
+#                Use of assignment operator in string formatting
+
+name = "Shiv"
+# name = name + "am" 
+name += "am"
+print(name)
+
+age = 19
+age *= 2
+print(age)
