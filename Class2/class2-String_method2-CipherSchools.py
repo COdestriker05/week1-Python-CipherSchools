@@ -20,3 +20,14 @@ print(name.center(14,"*"))
 
 name = input("Enter your name : ")
 print(name.center(len(name)+8,"*"))
+
+# Strings are immutable-
+# This means strings cann't be changed once it created.
+
+string = "string"
+
+# string[1]='T'  - error
+
+new_string = string.replace("t","T")
+print(string)
+print(new_string)
