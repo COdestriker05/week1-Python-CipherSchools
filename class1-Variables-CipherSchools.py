@@ -22,3 +22,13 @@ user_one_name = "Rohit"  # Snake case writing
 UserOneName = "Mohit"  # Camel case writing
 
 # we cann't use space between words used in name of a variable.
+
+#         Assigning values to variables-
+
+# Different values to multiple variables-
+name,age = "Shivam",19
+print("Hello " + name + " your age is " + str(age))
+
+# Same value to multiple variables-
+x=y=z=3
+print(x+y+z)
