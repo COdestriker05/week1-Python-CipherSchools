@@ -10,3 +10,13 @@ if age >=14:
     print("You are above 14")
 else:
     print("Sorry,Your are not eligible")
+    
+    
+#                                       In keyword :
+
+name = "Shivam"
+if "a" in name:
+    print("Yes, a is present in",name)
+else:
+    print("No, a is not present in",name)
+    
